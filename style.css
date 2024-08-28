@@ -1,0 +1,97 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fbe8eb; /* Light peach background */
+    color: #4a4a4a; /* Dark gray text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    color: #e76f6f; /* Soft coral */
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Form Labels */
+label {
+    font-weight: bold;
+    color: #4a4a4a; /* Dark gray text color */
+    margin-top: 10px;
+    display: block;
+}
+
+/* Input Fields */
+input[type="number"] {
+    padding: 12px;
+    margin: 10px 0 20px;
+    width: 240px;
+    border: 2px solid #f8d7da; /* Light peach border */
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #4a4a4a;
+    background-color: #ffffff; /* White background */
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #e76f6f; /* Soft coral border on focus */
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #e76f6f; /* Soft coral */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d63d3d; /* Darker coral on hover */
+    transform: translateY(-3px);
+}
+
+/* Change Display */
+#change-due {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    padding: 15px;
+    border: 2px solid #f8d7da; /* Light peach border */
+    background-color: #ffffff; /* White background */
+    color: #4a4a4a; /* Dark gray text color */
+    width: 350px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Additional Elements (if needed) */
+.container {
+    background-color: #ffffff; /* Pure white */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
